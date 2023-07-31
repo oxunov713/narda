@@ -1,6 +1,6 @@
-import 'randaom.dart';
-import 'io_service.dart';
-import 'score.dart';
+import '../bot/randaom.dart';
+import '../ioservice/io_service.dart';
+import '../score/score.dart';
 
 class Zaric {
   final Randaom userRN;
@@ -8,7 +8,7 @@ class Zaric {
 
   Zaric(this.userRN, this.botRN);
 
-  void call() {
+  void game() {
     Score user = Score(0);
     Score bot = Score(0);
 

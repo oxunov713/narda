@@ -1,6 +1,9 @@
-import 'narda.dart';
-import 'randaom.dart';
+import 'src/app/narda.dart';
+import 'src/bot/randaom.dart';
 
 void main() {
-  Zaric(Randaom.user(), Randaom.bot())();
+  Zaric(
+    Randaom.user(),
+    Randaom.bot(),
+  ).game();
 }
